@@ -1,0 +1,35 @@
+* {
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+}
+
+h3 {
+    color:purple;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.wrapper {
+    width: auto; 
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.a {
+    flex-direction: column-reverse;
+}
+
+@media (min-width:768px) {
+    .wrapper {
+        align-items: center;
+        flex-direction: row;
+    }
+    .content {
+        width:600px;
+    }
+    .img {
+        min-height: 300px;
+        margin:30px;
+    }
+}
