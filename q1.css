@@ -31,4 +31,8 @@
     border-radius: 50%;
 }
 
-
+@media (min-width: 768px) {
+    .services {
+        grid-template-columns: auto auto auto; 
+    }
+}
